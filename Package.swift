@@ -21,7 +21,7 @@ let package = Package(
         .target(
             name: "KimWoonPackage", 
             dependencies: [
-                .productItem(name: "RxSwift", package: "RxSwift")
+                .product(name: "RxSwift", package: "RxSwift")
             ]),
         .testTarget(
             name: "KimWoonPackageTests",
